@@ -9,7 +9,9 @@ const Intro = () => {
                     <Image width={346} height={259} src="/hyangurock-logo.png" alt="Hyangurock Life Logo" />
                 </div> */}
             </div>
-            <h4 className="text-center md:text-left text-lg mt-5">남해에서 가볼 만한 맛집들을 소개합니다.</h4>
+            <h4 className="text-center md:text-left text-2xl mt-5">
+                남해에서 가볼 만한 맛집들을 소개합니다.
+            </h4>
         </section>
     )
 }

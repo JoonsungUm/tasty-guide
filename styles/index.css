@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'NamhaeUrock';
+    src: url('/font/namhae-yourock.ttf') format('truetype');
+}
+
+@layer base {
+    html {
+        font-family: NamhaeUrock, system-ui, sans-serif;
+    }
+
+    @media (min-width: 768px) {
+        p {
+            font-size: 1.5rem; /* 24px */
+            line-height: 2rem; /* 32px */
+        }
+    }
+}

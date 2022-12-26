@@ -39,7 +39,7 @@ export default function Post() {
                         </Head>
                         <PostHeader title={post.title} coverImage={post.coverImage} />
 
-                        <div className="max-w-2xl mx-auto">
+                        <div className="max-w-2xl mx-auto text-lg md:text-2xl">
                             <div className={markdownStyles['markdown']}>
                                 <p className="font-bold">
                                     1. 재료 공수부터 손질까지, 오너쉐프의 한끗이 살아 있는 회포장 전문점

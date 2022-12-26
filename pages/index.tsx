@@ -71,8 +71,8 @@ export default function Index({ allPosts }: Props) {
                         />
                     )} */}
                     <section className="mb-16 md:mb-32">
-                        <div className="max-w-2xl mx-auto">
-                            <p className="font-bold">
+                        <div className="max-w-2xl mx-auto text-lg md:text-2xl">
+                            <p>
                                 파면 팔수록 고구마처럼 끝없이 줄줄 딸려 나오는 남해의 맛집들, 맛도리 유록이의
                                 록슐랭 가이드
                             </p>
