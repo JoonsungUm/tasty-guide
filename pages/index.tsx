@@ -48,6 +48,105 @@ export default function Index({ allPosts }: Props) {
             },
             content: 'string',
         },
+        {
+            slug: 'cafe-saemseong',
+            title: '카페 샘성',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/cafe-saemseong/cover.jpg',
+            excerpt: '빵지순례자들이 꼭 들러야 하는 남해군 디저트 맛집',
+            ogImage: {
+                url: '/assets/blog/cafe-saemseong/cover.jpg',
+            },
+            content: 'string',
+        },
+        {
+            slug: 'namhae-abalone',
+            title: '남해 전복 물회',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/namhae-abalone/cover.jpg',
+            excerpt: '곁들임 광어 미역국까지 끝내주는',
+            ogImage: {
+                url: '/assets/blog/namhae-abalone/cover.jpg',
+            },
+            content: 'string',
+        },
+        {
+            slug: 'gloy',
+            title: '글로이',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/gloy/cover.jpg',
+            excerpt: '남해군 여성 1인 오너 셰프의 맛있고도 멋진 이야기',
+            ogImage: {
+                url: '/assets/blog/gloy/cover.jpg',
+            },
+            content: 'string',
+        },
+        {
+            slug: 'daon-bakeshop',
+            title: '다온 제과',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/daon-bakeshop/cover.jpg',
+            excerpt: '남해군 빵지순례',
+            ogImage: {
+                url: '/assets/blog/daon-bakeshop/cover.jpg',
+            },
+            content: 'string',
+        },
+        {
+            slug: 'familia-cafe',
+            title: '파밀리아 카페',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/familia-cafe/cover.jpg',
+            excerpt: '맛있는 한 입을 위한 노력',
+            ogImage: {
+                url: '/assets/blog/familia-cafe/cover.jpg',
+            },
+            content: 'string',
+        },
+        {
+            slug: 'bokrye-gukbap',
+            title: '복례 가마솥 국밥',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/bokrye-gukbap/cover.jpg',
+            excerpt: '남해에서 지인한 남해식 돼지국밥을 드시고 싶다면?',
+            ogImage: {
+                url: '/assets/blog/bokrye-gukbap/cover.jpg',
+            },
+            content: 'string',
+        },
+        {
+            slug: 'chojen-house',
+            title: '초전집',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/chojen-house/cover.jpg',
+            excerpt: '남해산 꼬막과 투플 한우를 가득 담은 한 상',
+            ogImage: {
+                url: '/assets/blog/chojen-house/cover.jpg',
+            },
+            content: 'string',
+        },
+        {
+            slug: 'panda-jjamppong',
+            title: '판다 짬뽕',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/panda-jjamppong/cover.jpg',
+            excerpt: '압도적 비주얼에 ‘와’ 소리 절로 나오는',
+            ogImage: {
+                url: '/assets/blog/panda-jjamppong/cover.jpg',
+            },
+            content: 'string',
+        },
+        {
+            slug: 'pod-pies',
+            title: '팥파이스',
+            date: '2020-03-16T05:36:07.322Z',
+            coverImage: '/assets/blog/pod-pies/cover.jpg',
+            excerpt: '디저트에 담긴 진심',
+            ogImage: {
+                url: '/assets/blog/pod-pies/cover.jpg',
+            },
+            content: 'string',
+        },
     ]
     return (
         <>

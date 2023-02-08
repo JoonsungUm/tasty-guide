@@ -41,8 +41,8 @@ export default function Post() {
 
                         <div className="max-w-2xl mx-auto text-lg md:text-2xl">
                             <div className={markdownStyles['markdown']}>
-                                <p className="font-bold">
-                                    1. 재료 공수부터 손질까지, 오너쉐프의 한끗이 살아 있는 회포장 전문점
+                                <p className="">
+                                    * 재료 공수부터 손질까지, 오너쉐프의 한끗이 살아 있는 회포장 전문점
                                     “유서방 회떠가시다”
                                 </p>
                                 <p>
@@ -65,7 +65,7 @@ export default function Post() {
 
                         <div className="max-w-2xl mx-auto">
                             <div className={markdownStyles['markdown']}>
-                                <p className="font-bold">고등어야 힘내!</p>
+                                <p className="">고등어야 힘내!</p>
                                 <p>
                                     그래서 우리가 고등어를 횟집에서 우럭이나 광어처럼 쉬이 먹기 어렵습니다. 안
                                     팔리면 수조에 둘 수밖에 없는데 빨리 고등어별로 가버리니.. 그리고 수조에
@@ -87,12 +87,12 @@ export default function Post() {
                             </div>
                         </div>
 
-                        <CoverImage title={'고등어'} src={'/assets/blog/youseobang/2.jpg'} />
+                        <CoverImage title={'고등어회'} src={'/assets/blog/youseobang/2.jpg'} />
 
                         <div className="max-w-2xl mx-auto">
                             <div className={markdownStyles['markdown']}>
-                                <p className="font-bold">남해 몽돌 바닷가에서 먹는 고등어회 대꿀맛!</p>
-                                <p className="font-bold">#고등어회 맛있게 먹는 법!</p>
+                                <p className="">남해 몽돌 바닷가에서 먹는 고등어회 대꿀맛!</p>
+                                <p className="">#고등어회 맛있게 먹는 법!</p>
                                 <p>
                                     사장님께 여쭤보았습니다. "고등어 회, 어떻게 먹어야 최고로 맛있나요?"
                                     <br />
@@ -111,7 +111,7 @@ export default function Post() {
                                     취향의 영역입니다. 하나씩 추가해서 드시면서 자신의 취향을 찾아보시면
                                     됩니다.
                                 </p>
-                                <p className="font-bold"># 주정뱅이가 엄선한 고등어회와 어울리는 알코올~</p>
+                                <p className=""># 주정뱅이가 엄선한 고등어회와 어울리는 알코올~</p>
 
                                 <p>
                                     고등어회와 어울리는 술로는, 영롱한 초록병 ‘소주’가 최고라고 생각합니다.
@@ -122,7 +122,7 @@ export default function Post() {
                             </div>
                         </div>
 
-                        <CoverImage title={'고등어'} src={'/assets/blog/youseobang/3.jpg'} />
+                        <CoverImage title={'알콜'} src={'/assets/blog/youseobang/3.jpg'} />
 
                         <div className="max-w-2xl mx-auto">
                             <div className={markdownStyles['markdown']}>
@@ -132,7 +132,7 @@ export default function Post() {
                                     아니고 술잔이고요. 음주는 건강에 해롭습니다.)
                                     <br />
                                 </p>
-                                <p className="font-bold">#회만으로 아쉽다면, “ 반건조 갑오징어”추가요!</p>
+                                <p className="">#회만으로 아쉽다면, “ 반건조 갑오징어”추가요!</p>
                                 <p>
                                     신선한 갑오징어를 서해에서 공수하셔서 직접 반건조해서 포장 판매하시는데
                                     같이 주시는 알배추에 특제 마요네즈 소스를 푹 찍어 마늘과 함께 먹으면...
@@ -144,11 +144,11 @@ export default function Post() {
                             </div>
                         </div>
 
-                        <CoverImage title={'고등어'} src={'/assets/blog/youseobang/4.jpg'} />
+                        <CoverImage title={'반건조 갑오징어'} src={'/assets/blog/youseobang/4.jpg'} />
 
                         <div className="max-w-2xl mx-auto">
                             <div className={markdownStyles['markdown']}>
-                                <p className="font-bold">#포장 전문점! 3~4시간 전 예약 필수!</p>
+                                <p className="">#포장 전문점! 3~4시간 전 예약 필수!</p>
 
                                 <p>
                                     이곳은 홀 영업은 안 하시고 포장만 전문으로 하세요. 늘어나는 주문 때문에
@@ -158,7 +158,7 @@ export default function Post() {
                             </div>
                         </div>
 
-                        <CoverImage title={'고등어'} src={'/assets/blog/youseobang/5.jpg'} />
+                        <CoverImage title={'오징어 건조대'} src={'/assets/blog/youseobang/5.jpg'} />
 
                         <div className="max-w-2xl mx-auto">
                             <div className={markdownStyles['markdown']}>
@@ -174,8 +174,7 @@ export default function Post() {
                             </div>
                         </div>
 
-                        <CoverImage title={'고등어'} src={'/assets/blog/youseobang/6.jpg'} />
-                        <CoverImage title={'고등어'} src={'/assets/blog/youseobang/7.jpg'} />
+                        <CoverImage title={'회 종류 스티커'} src={'/assets/blog/youseobang/7.jpg'} />
 
                         <div className="max-w-2xl mx-auto">
                             <div className={markdownStyles['markdown']}>
@@ -186,7 +185,7 @@ export default function Post() {
                                     잡아두시지 않고 주문 시간에 맞춰서 착착 생선 잡아 회 뜨시니 미리미리
                                     연락하셔서 "몇 시에 가지러 갑니다~" 하시면 됩니다.
                                 </p>
-                                <p className="font-bold">
+                                <p className="">
                                     # 모둠회 및 고등어회 가격 (2022년 기준)
                                     <br />
                                     2인 35,000원
@@ -203,9 +202,11 @@ export default function Post() {
                                     것이 가장 빠르고 정확하다고 합니다.
                                 </p>
                                 <p>그럼 얼른 남해로 고등어회 드시러 오시다. (~시다는 남해군 방언입니다.)</p>
-                                <p className="font-bold">* 인스타그램 계정 회 떠가시다(@husband_yoo) </p>
+                                <p className="">* 인스타그램 계정 회 떠가시다(@husband_yoo) </p>
                             </div>
                         </div>
+
+                        <CoverImage title={'포장구성'} src={'/assets/blog/youseobang/6.jpg'} />
                     </article>
                 </>
             </Container>
